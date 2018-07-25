@@ -11,9 +11,9 @@ class CashRegister
 
   end
 
-  #def total
-  #  @total
-  #end
+  def total
+    @total
+  end
 
   def add_item(title,price,quantity = 0)
 
@@ -49,7 +49,7 @@ class CashRegister
   def items
 
     @items
-    
+
   end
 
   def void_last_transaction

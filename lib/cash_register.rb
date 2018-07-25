@@ -11,9 +11,9 @@ class CashRegister
 
   end
 
-  def total
-    @total
-  end
+  #def total
+  #  @total
+  #end
 
   def add_item(title,price,quantity = 0)
 
@@ -46,11 +46,11 @@ class CashRegister
 
   end
 
-  def self.items
+  #def self.items
 
-    @items
-    binding.pry
-  end
+  #  @items
+  #  binding.pry
+  #end
 
   def void_last_transaction
     @total -= @total
